@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{24F837F5-163B-4227-B940-71DBAEDE5B19}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>FitnessQualityAssurance</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Code-Louisville---SQL\Batman_20210913.txt" />
+    <Content Include="Code-Louisville---SQL\IronMan_20210913.txt" />
+    <Content Include="Code-Louisville---SQL\Superman.txt" />
+    <Content Include="Code-Louisville---SQL\teresa Hawkins Sept 13 2021 reresr.txt" />
+    <Content Include="Code-Louisville---SQL\teresa Hawkins Sept 13 2021.txt" />
+    <Content Include="Code-Louisville---SQL\Testme.txt" />
+    <Content Include="Code-Louisville---SQL\TimHoang_20210913.txt" />
+    <Content Include="ConsoleApp1\ConsoleApp1.sln" />
+    <Content Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Content Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs" />
+    <Content Include="ConsoleApp1\ConsoleApp1\Program.cs" />
+    <Content Include="deartc\QualityAssuranceTesting\.git\ms-persist.xml" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.dll" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.exe" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.pdb" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\apphost.exe" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.AssemblyInfo.cs" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.csproj.FileListAbsolute.txt" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.dll" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.pdb" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\obj\Release\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\obj\Release\netcoreapp3.1\QATest.AssemblyInfo.cs" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\Program.cs" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories.sln" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.AssemblyInfo.cs" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.csproj.FileListAbsolute.txt" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Release\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Release\netcoreapp3.1\QualityAssuranceTestCalories.AssemblyInfo.cs" />
+    <Content Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\Program.cs" />
+    <Content Include="NewRepo\.gitattributes" />
+    <Content Include="NewRepo\.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Code-Louisville---SQL\.vs\Code-Louisville---SQL\v16\.suo" />
+    <None Include="Code-Louisville---SQL\.vs\slnx.sqlite" />
+    <None Include="Code-Louisville---SQL\.vs\VSWorkspaceState.json" />
+    <None Include="ConsoleApp1\ConsoleApp1\ConsoleApp1.csproj" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\ConsoleApp1.csproj.nuget.dgspec.json" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\ConsoleApp1.csproj.nuget.g.props" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\ConsoleApp1.csproj.nuget.g.targets" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.assets.cache" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\project.assets.json" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\project.nuget.cache" />
+    <None Include="deartc\FitnessQualityAssurance\.git\config" />
+    <None Include="deartc\FitnessQualityAssurance\.git\description" />
+    <None Include="deartc\FitnessQualityAssurance\.git\HEAD" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\applypatch-msg.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\commit-msg.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\post-update.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\pre-applypatch.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\pre-commit.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\pre-merge-commit.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\pre-push.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\pre-rebase.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\pre-receive.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\push-to-checkout.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\hooks\update.sample" />
+    <None Include="deartc\FitnessQualityAssurance\.git\index" />
+    <None Include="deartc\FitnessQualityAssurance\.git\info\exclude" />
+    <None Include="deartc\FitnessQualityAssurance\.git\logs\HEAD" />
+    <None Include="deartc\FitnessQualityAssurance\.git\logs\refs\heads\main" />
+    <None Include="deartc\FitnessQualityAssurance\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="deartc\FitnessQualityAssurance\.git\objects\pack\pack-c170251374bbf447bfe3993dc0f79d2a989b2192.idx" />
+    <None Include="deartc\FitnessQualityAssurance\.git\objects\pack\pack-c170251374bbf447bfe3993dc0f79d2a989b2192.pack" />
+    <None Include="deartc\FitnessQualityAssurance\.git\packed-refs" />
+    <None Include="deartc\FitnessQualityAssurance\.git\refs\heads\main" />
+    <None Include="deartc\FitnessQualityAssurance\.git\refs\remotes\origin\HEAD" />
+    <None Include="deartc\FitnessQualityAssurance\.vs\FitnessQualityAssurance\v16\.suo" />
+    <None Include="deartc\FitnessQualityAssurance\.vs\slnx.sqlite" />
+    <None Include="deartc\FitnessQualityAssurance\.vs\VSWorkspaceState.json" />
+    <None Include="deartc\FitnessQualityAssurance\README.md" />
+    <None Include="deartc\QualityAssuranceTesting\.git\COMMIT_EDITMSG" />
+    <None Include="deartc\QualityAssuranceTesting\.git\config" />
+    <None Include="deartc\QualityAssuranceTesting\.git\description" />
+    <None Include="deartc\QualityAssuranceTesting\.git\FETCH_HEAD" />
+    <None Include="deartc\QualityAssuranceTesting\.git\HEAD" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\applypatch-msg.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\commit-msg.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\post-update.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\pre-applypatch.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\pre-commit.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\pre-merge-commit.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\pre-push.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\pre-rebase.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\pre-receive.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\push-to-checkout.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\hooks\update.sample" />
+    <None Include="deartc\QualityAssuranceTesting\.git\index" />
+    <None Include="deartc\QualityAssuranceTesting\.git\info\exclude" />
+    <None Include="deartc\QualityAssuranceTesting\.git\logs\HEAD" />
+    <None Include="deartc\QualityAssuranceTesting\.git\logs\refs\heads\main" />
+    <None Include="deartc\QualityAssuranceTesting\.git\logs\refs\remotes\origin\main" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\00\a4c62edf6e7b2ab77ccbc59cd06613f8796b4a" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\00\e5dfd1cf8e998e237fa86c6a857504e66f0715" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\02\47a926d5862344e1120eaabffb0412005e2aac" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\06\8c723a780aba02016e3e44e855dd88897aff92" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\07\4327155a3dabcbe03c8383d27d111e026341c6" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\11\da248fc144be6739ce4fd4e63c7f4736f4bdc3" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\11\fa780041dfa4a2b4ef0fadfb613933fb446182" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\1c\d0144b0afd3c1bc6b0b4a350f6578d42c322bc" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\20\ec801f341265cdc02e4989aaefddac297dcef4" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\25\b7c0e4b1af92bf9668d9493cdc06dc375f0dbb" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\2a\76cee8b7c8d68948c9dc64035cc8673252ef8c" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\2a\d7520b46ddd3e65c81187caeb63eb1cd1f1f38" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\2b\ed13d09d8d83d694b57e95b53d79102de0265a" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\2c\61b229e53a7fb566d0fccfca86ffd9f98c6d32" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\30\7f4c7508acedc9a07402de5e2bee3551924034" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\3a\e329ff22a5c7b26250c08d2cbd0b5abd6432c9" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\3b\0d87361a6b3901d1dc588aa9efc1184d2fcb74" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\3b\8e6be9bce8dee54cb54dc0095a323077e12318" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\3f\09a90fbe7c140bd795b083369fb34a85e302b2" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\41\a47227262b730b2d82a5e85424b836beafb2c6" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\4a\2643a1915d5a6ceda416506b4c8389d0522ec5" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\4d\245a0293439dfb643c27e7f969ca892108ba7a" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\52\65cd07d7340e2936243cfc67686ed06fb35f72" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\52\a45f55d91d3c7b857ec8e6e51fe9dd09c3de6b" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\53\cfaa19b16f3769b2bfc33db3b5c0053c16fdba" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\59\2e4e4d312020cca640d6adceb544622359618a" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\60\1945a4a5b8f28dfbcca2d566460ba596751b39" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\60\56a20c0eaa424e42df0bcff13d04f36c76548c" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\61\6d679684d81014609ca7b4bbfeb09a85d2eb5c" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\6b\0694ee9df00daf238dd2561005d58c4f79dd69" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\71\90aedd4075d0d6258c610c1e237a9bc8b3fea8" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\72\88862ba9d8923f89200b381782cb7c36a54622" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\72\ee749120f66465e9b3773edf01abbf097da42e" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\73\93d24e0ecceaf5e57cc6e77e4fb7eef0992c9f" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\7c\a9e55cdffd8da858e872ff1f004fb0b9751933" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\7d\e98266a92e359c5056fade5682cf8d2fa906b8" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\81\1ee9c6fb6b46a6424898c9500e9f37e1508bcf" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\82\e73dbac2d5d7316f4a6ec7c9cdf29867d3e8b1" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\86\0a138eb63860bb8344a98e207173dce48d7983" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\87\e5f8af552ef354fbb119fbcdb7b483b00e6339" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\89\33b6c3ef2268705bacd47851ba76110ebeee37" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\8b\c1041a9019247c1a388b5f8f3a7e5dc3ccc9dc" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\8b\f0cd40f6ee7164ae1128ee1183e82131a2020f" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\8e\35f2b83bc5bccb55f260961853aa9f9dae6af8" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\90\07be0c0d15fadfd779c9edfd0eca7a798a62f4" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\93\e97169d7171037109ad9e034280ba3cdba7f95" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\94\eb0112232cb9474e438a0de82dbf72e4b6280b" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\9e\a1e4c8c21d09d0fb361d7658aa8eb88cd8ba61" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\a1\96ce3443acae4a6c5228249fb6864e4e8a1ebb" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\a6\dc15b54f95accb5f4c14f021ab9a5a99d3a70f" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\a7\df9a5e3d6162bcf8f0380cd9646bbd80c887c7" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\aa\a638ccbd925d9cebf363d43e248a2fc293b531" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\ab\5912785c2ddfe6d7848b1d202d4a6e13bd69b3" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\ad\8dfe1a6310302587a2d0c0111d81b250eb4105" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\ae\402342807955b178ef6cd4ca9151ed92e36bb9" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\af\5d58567475b371b2c0bb9a06162bb6184f9b1a" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\af\be2f82a4319fb6e06d60ebd82d2a87e2046ef8" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\b1\a7cd82cde8134af0950cc2aaa41ac32a371d9d" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\b2\b99c0f1ec91ad4e0c6f3e13e3943d1d136b320" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\b5\cc51a6f38fcb3d465d05c27eb8724085bc98ee" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\bb\d88bd38c282a8f19733b1995b32a3d7cd3305b" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\bc\456d7868bb54ec1809da30e339cd43f0a8a09c" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\bd\268b5b2b06371022f14790a1f6af196d805ef3" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\c3\2dc3afd0a1e0f1fe247eced33d0af7c7d75ff7" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\c7\3e0d1692ab38cc8596bbd32ae080d903aaa778" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\cb\2df713ce907fd7c75dc9650c3794a93e0e8c03" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\d1\24c560719d29e6e90ace88a2f77bf359c3587c" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\d5\a629be5ba0e1040e3a674c1ff5b0db0535fadb" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\d6\2d4d10bf48ee6d65686352392ad6b10979ef3d" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\d8\7b4474bc5001c4ac1ae328fdc3d454d813b90c" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\db\0b2dbcb04b1084b4cfd12fc4dbcf747975d225" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\dc\699e5a8550f869ca435ac86c69315401889036" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\df\aa84df5b58f0d12b50331ff9507a5f787c087a" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\e0\c1088bffceaf28b435b8e654e3bb2cf79ade82" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\e2\4bcb06e76e2cd9d01580651ab97e85ade1c378" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\e8\5eb04e29cb93ecb599ce2c3fe95ad246d9f445" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\e8\a09e5e40fe8537ed8f87e3319eff9f2a3063fb" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\e9\2ede29d76aefe079835aeae278da5341f6e15c" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\ec\e019b8dbca5e9299947b17d16e3925b80478c2" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\ef\412b1890627b24ad5b627eb70f36e71b35a24c" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\f5\e894aea93a73e58fa9d4feab241bc197ee1a40" />
+    <None Include="deartc\QualityAssuranceTesting\.git\objects\fc\fde7371b3ed5febda523c3211e7906026c7ece" />
+    <None Include="deartc\QualityAssuranceTesting\.git\ORIG_HEAD" />
+    <None Include="deartc\QualityAssuranceTesting\.git\refs\heads\main" />
+    <None Include="deartc\QualityAssuranceTesting\.git\refs\remotes\origin\main" />
+    <None Include="deartc\QualityAssuranceTesting\.vs\QualityAssuranceTesting\v16\.suo" />
+    <None Include="deartc\QualityAssuranceTesting\.vs\QualityAssuranceTesting\v16\TestStore\0\000.testlog" />
+    <None Include="deartc\QualityAssuranceTesting\.vs\QualityAssuranceTesting\v16\TestStore\0\testlog.manifest" />
+    <None Include="deartc\QualityAssuranceTesting\.vs\slnx.sqlite" />
+    <None Include="deartc\QualityAssuranceTesting\.vs\VSWorkspaceState.json" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\.vs\QATest\v16\.suo" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\.vs\QATest\v16\TestStore\0\000.testlog" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\.vs\QATest\v16\TestStore\0\testlog.manifest" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.deps.json" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.runtimeconfig.dev.json" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\bin\Debug\netcoreapp3.1\QATest.runtimeconfig.json" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.AssemblyInfoInputs.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.assets.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.csproj.AssemblyReference.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.csproj.CoreCompileInputs.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\Debug\netcoreapp3.1\QATest.genruntimeconfig.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\project.assets.json" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\project.nuget.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\QATest.csproj.nuget.dgspec.json" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\QATest.csproj.nuget.g.props" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\QATest.csproj.nuget.g.targets" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\Release\netcoreapp3.1\QATest.AssemblyInfoInputs.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\Release\netcoreapp3.1\QATest.assets.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\obj\Release\netcoreapp3.1\QATest.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QATest.csproj" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\.vs\QualityAssuranceTestCalories\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\.vs\QualityAssuranceTestCalories\v16\.suo" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\.vs\QualityAssuranceTestCalories\v16\TestStore\0\000.testlog" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\.vs\QualityAssuranceTestCalories\v16\TestStore\0\testlog.manifest" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\calorie counter revised Code Louisville first.docx" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\bin\Debug\netcoreapp3.1\.vs\netcoreapp3.1\v16\.suo" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\bin\Debug\netcoreapp3.1\.vs\netcoreapp3.1\v16\TestStore\0\000.testlog" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\bin\Debug\netcoreapp3.1\.vs\netcoreapp3.1\v16\TestStore\0\testlog.manifest" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\bin\Debug\netcoreapp3.1\.vs\slnx.sqlite" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\bin\Debug\netcoreapp3.1\.vs\VSWorkspaceState.json" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.AssemblyInfoInputs.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.assets.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.csproj.AssemblyReference.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.csproj.CoreCompileInputs.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Debug\netcoreapp3.1\QualityAssuranceTestCalories.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\project.assets.json" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\project.nuget.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\QualityAssuranceTestCalories.csproj.nuget.dgspec.json" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\QualityAssuranceTestCalories.csproj.nuget.g.props" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\QualityAssuranceTestCalories.csproj.nuget.g.targets" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Release\netcoreapp3.1\QualityAssuranceTestCalories.AssemblyInfoInputs.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Release\netcoreapp3.1\QualityAssuranceTestCalories.assets.cache" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\obj\Release\netcoreapp3.1\QualityAssuranceTestCalories.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\QualityAssuranceTestCalories.csproj" />
+    <None Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\~%24lorie counter revised Code Louisville first.docx" />
+    <None Include="NewRepo\.vs\NewRepo\config\applicationhost.config" />
+    <None Include="NewRepo\.vs\NewRepo\v16\.suo" />
+    <None Include="NewRepo\.vs\slnx.sqlite" />
+    <None Include="NewRepo\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\" />
+    <Folder Include="deartc\FitnessQualityAssurance\.git\objects\info\" />
+    <Folder Include="deartc\FitnessQualityAssurance\.git\refs\tags\" />
+    <Folder Include="deartc\QualityAssuranceTesting\.git\objects\info\" />
+    <Folder Include="deartc\QualityAssuranceTesting\.git\objects\pack\" />
+    <Folder Include="deartc\QualityAssuranceTesting\.git\refs\tags\" />
+    <Folder Include="deartc\QualityAssuranceTesting\QATest\bin\Release\netcoreapp3.1\" />
+    <Folder Include="deartc\QualityAssuranceTesting\QATest\QualityAssuranceTestCalories\QualityAssuranceTestCalories\bin\Release\netcoreapp3.1\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeFile1.vb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
