@@ -1,9 +1,11 @@
 ﻿
 using Vehicle;
+using static MyApplication.CarDetail;
+using car = Vehicle.car;
 
 namespace Vehicle
 {
-    public class Car
+    public class car
     {
 
 
@@ -12,14 +14,14 @@ namespace Vehicle
         public decimal MilesPerGallon { get; set; }
         public decimal GasTankCapacity { get; set; }
 
-        public Car()
+        public car()
         {
-            Make = "";
-            Model = "";
+            Make = "a";
+            Model = "b";
             MilesPerGallon = 0.00M;
             GasTankCapacity = 0.00M;
 
-            public Car (string a, string b, decimal c, decimal d)
+            public car (string a, string b, decimal c, decimal d)
             Make = a;
             Model = b;
             MilesPerGallon = c;
@@ -106,7 +108,41 @@ using System;
             Console.WriteLine(Convert.ToDouble(myInt));    // Convert int to double
             Console.WriteLine(Convert.ToInt32(myDouble));  // Convert double to int
             Console.WriteLine(Convert.ToString(myBool));   // Convert bool to string
-        }
+}
     }
 }
+using Parameters;
+
+Console.WriteLine("Testing for gas and flat tires!");
+
+Console.WriteLine(" “Cannot drive, out of gas.”.\r\n");
+var gasInput = Console.ReadLine();
+
+Console.WriteLine("Cannot drive due to flat tire");
+var TireInput = Console.ReadLine();
+
+DateTime WasModelMadeInYear;
+
+while (!DateTime.TryParse(Input WasModelMadeInYear, out WasModelMadeInYear))
+{
+    Console.WriteLine("Invalid , no data is available for years before 1995");
+    WasModelMadeInYear Console.ReadLine();
+}
+
+Console.WriteLine("Please enter your make");
+var make = Console.ReadLine();
+
+var model = new model
+{
+    Make = make,
+    WasModelMadeInYear = year,
+    MilesPerGallon = decimal.Parse(MilesPerGallon,
+};
+
+Console.WriteLine($"Make of car, {car.Make}! " +
+$"Your model is {car.Model} " +
+$"and your WasModelMadeInYear  is {car.WasModelMadeInYear.ToShortDateString()}.");
+
+
+
 
