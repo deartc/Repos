@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Write Project statements
+Console.WriteLine($"Make of car, {car.Make}! " 
+;
+
