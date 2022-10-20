@@ -10,7 +10,7 @@ namespace CodeLouisvilleUnitTestProjectTests
         //Verify that the SemiTruck constructor creates a new SemiTruck
         //object which is also a Vehicle and has 18 wheels. Verify that the
         //Cargo property for the newly created SemiTruck is a List of
-        //CargoItems which is empty, but not null.
+        //CargoItems which is empty, but not null or empty.
         [Fact]
         public void NewSemiTruckIsAVehicleAndHas18TiresAndEmptyCargoTest()
         {
