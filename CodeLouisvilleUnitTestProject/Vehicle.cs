@@ -36,7 +36,7 @@
             MilesPerGallon = milesPerGallon;
         }
 
-        /// <summary>
+        /// <summarys>
         /// Adds gas up to the maximum amount of gas the tank can hold
         /// </summary>
         /// <returns></returns>
